@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Examples</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="../css/index1.css" rel="stylesheet">
+ <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+        <script type="text/javascript">
+      $(document).ready(function(){
+        $("div.m-sq").click(function(){
+          $("div.m-tl").fadeIn(500);
+          $("div.m-sq").css({"opacity":"0.1", "z-index":"-1"});
+
+        });
+      });
+       $(document).ready(function(){
+        $("div.m-tl").click(function(){
+          $("div.m-tl").hide();
+          $("div.m-sq").css({"opacity":"1", "z-index":"1"});
+        });
+      });
+    </script>
+</head>
+<body>
+     <div class="m-tl"  style="display: none">
+         <div class="m-b-bk" ></div>
+         <div class="m-b-sq" ></div>
+    </div>
+
+	<div class="m-bd">
+        <div class="m-sq" ></div>
+        <div class="m-sq" ></div>
+        <div class="m-sq" ></div>
+        <div class="m-sq" ></div>
+        <div class="m-sq" ></div>
+   </div>
+   <div class="m-bd">
+        <div class="m-sq" ></div>
+        <div class="m-sq" ></div>
+        <div class="m-sq" ></div>
+        <div class="m-sq" ></div>
+        <div class="m-sq" ></div>
+   </div>
+</body>
+</html>

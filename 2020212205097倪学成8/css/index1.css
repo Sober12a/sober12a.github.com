@@ -1,0 +1,36 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2022-04-13 09:18:33
+ * @version $Id$
+ */
+.m-bd{
+	display: flex;
+	margin: 200px 0 0 600px;
+	height: 30px;
+}
+.m-sq{
+	width: 100px;
+	height: 100px;
+	border: 1px solid black;
+	background: rgb(192,192,192);
+	margin: 0 0 0 15px;
+	
+}
+.m-b-sq{
+	 width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    background: rgb(192,192,192);
+    margin: 13px 0 0 745px;
+    position: absolute;
+}
+.m-b-bk{
+	width: 400px;
+    height: 400px;
+    border: 1px solid black;
+    background: white;
+    margin: -35px 0 0 695px;
+    position: absolute;
+}

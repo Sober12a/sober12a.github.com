@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Examples</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="../css/index2.css" rel="stylesheet">
+ <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+        <script type="text/javascript">
+      $(document).ready(function(){
+        $("div.m-tl1").click(function(){
+          $("div.m-bd1").show();
+          $("div.m-bd2").hide();
+          $("div.m-bd3").hide();
+          $("div.m-tl1").css("background","rgb(192,192,192)");
+          $("div.m-tl2").css("background","white");
+          $("div.m-tl3").css("background","white");
+        });
+      });
+         $(document).ready(function(){
+        $("div.m-tl2").click(function(){
+          $("div.m-bd1").hide();
+          $("div.m-bd2").show();
+          $("div.m-bd3").hide();
+          $("div.m-tl1").css("background","white");
+          $("div.m-tl2").css("background","rgb(192,192,192)");
+          $("div.m-tl3").css("background","white");
+        });
+      });
+            $(document).ready(function(){
+        $("div.m-tl3").click(function(){
+          $("div.m-bd1").hide();
+          $("div.m-bd2").hide();
+          $("div.m-bd3").show();
+          $("div.m-tl1").css("background","white");
+          $("div.m-tl2").css("background","white");
+          $("div.m-tl3").css("background","rgb(192,192,192)");
+        });
+      });
+    </script>
+</head>
+<body>
+    <div class="m-tl">
+        <div class="m-tl1" ></div>
+        <div class="m-tl2" ></div>
+        <div class="m-tl3" ></div>
+   </div>
+  <div class="m-bd1">1</div>
+  <div class="m-bd2" style="display: none">2</div>
+  <div class="m-bd3" style="display: none">3</div>
+</body>
+</html>
