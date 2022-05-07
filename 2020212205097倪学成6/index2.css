@@ -1,0 +1,40 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2022-04-04 12:25:26
+ * @version $Id$
+ */
+.g-index{
+    margin: 200px 0 0 700px;
+    width: 500px;
+    height: 500px;
+    background: rgb(153,189,144);
+}
+.m-top {
+    width: 390px;
+    height: 260px;
+    background: rgb(255,255,235);
+    position: absolute;
+    margin: 40px 0 0 55px;
+}
+.m-ft {
+    width: 390px;
+    height: 110px;
+    background: rgb(255,230,244);
+    margin: 300px 0 0 55px;
+    position: absolute;
+}
+.m-ft>li{
+	list-style: none;
+    width: 370px;
+    height: 20px;
+    background: white;
+    margin: 10px;
+}
+.m-ft-price {
+    width: 370px;
+    height: 30px;
+    background: white;
+    margin: 10px 0 0 10px;
+}
